@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" src="index.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <p class="nav-title">Awesome Books</p>
+      <ul class="nav-links">
+        <li class="nav-link nav-list"><a class='a-list' href='#list-section'> Book List</a></li>
+        <div class="line"></div>
+        <li class="nav-link nav-add"><a class='a-add' href='#add-section'>Add a Book</a></li>
+        <div class="line"></div>
+        <li class="nav-link nav-contact"><a class='a-contact' href='#contact-section'> Contact</a></li>
+      </ul>
+    </nav>
+    <p class="date-display"></p>
+  </header>
+  
+  <section class="list-section hidden" id="list-section">
+    <h1>ALL AWESOME BOOKS</h1>
+    <div class="library" id="book-list">
+  </div>
+  </section>
+
+  <section class="add-section hidden" id="add-section">
+    <h1 class="add-title">Add a new book</h1>
+    <form class="add-book-form">
+      <div class="title-book-form">
+        <input
+        type="text"
+        placeholder="Title"
+        class="title-book-add"
+        >
+      </div>
+  
+      <div class="author-book-form">
+        <input
+        class="author-book-add"
+        type="text"
+        placeholder="Author">
+      </div>
+      <button class="btn-add">Add</button>
+    </form>
+  </section>
+
+  <section class="contact-section hidden" id="contact-section">
+    <h1 class="contact-title">Contact information</h1>
+    <p class="">Do you have any questions or you just want to say "Hello"?</p>
+    <p>You can reach out to us!</p>
+    <ul>
+      <li>Our email andrearivaspalacios@gmail.com</li>
+      <li>Our phone number: 089875789</li>
+      <li>Our address:St Lowrence 45, 1b, London, UK</li>
+    </ul>
+  </section>
+  
+  <footer>
+    <div class="copyright-container">
+      <p class="copy-text">Copyright 2023</p>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
