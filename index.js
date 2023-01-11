@@ -3,6 +3,7 @@
 import Book from './modules/book.js';
 import Storage from './modules/localStorage.js';
 import UI from './modules/ui.js';
+import { DateTime } from './modules/luxon.js';
 
 const addBtn = document.querySelector('.add-book-btn');
 const newTitleInput = document.querySelector('.add-title-input');
@@ -68,7 +69,9 @@ const removeBook = function (e) {
 addBtn.addEventListener('click', addBookPressed);
 libraryContainer.addEventListener('click', removeBook);
 document.addEventListener('DOMContentLoaded', UI.displayBook);
+
 // Display date
-const dateDisplay = new Date();
+
+const dateDisplay = DateTime.now().toLocaleString(DateTime.DATETIME_MED)
 dateToday.textContent = dateDisplay;
 document.addEventListener('DOMContentLoaded', dateToday);
