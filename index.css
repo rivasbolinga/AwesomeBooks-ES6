@@ -41,6 +41,7 @@
   border: 2px solid black;
   display: flex;
   flex-direction: column;
+  width: 500px;
 }
 
 .book-card {
@@ -54,13 +55,6 @@
   height: 30px;
 }
 
-.remove-btn {
-  background-color: white;
-  height: 35px;
-  width: 80px;
-  border: 2px solid black;
-}
-
 .book-details {
   width: 500px;
 }
@@ -71,10 +65,6 @@
   justify-content: center;
   align-items: center;
   padding-top: 40px;
-}
-
-.add-title {
-  font-size: 40px;
 }
 
 .title-book-add {
@@ -101,10 +91,91 @@
 }
 
 footer {
+  margin-top: 200px;
   border: 2px solid black;
-  margin-top: 50px;
+  align-self: flex-end;
+  justify-self: end;
 }
 
 .copy-text {
   margin-left: 20px;
+}
+
+.title-form {
+  font-size: 30px;
+  font-family: 'Varela Round', sans-serif;
+  margin-left: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-title-input,
+.add-author-input {
+  width: 400px;
+  border: 3px solid black;
+  margin-bottom: 10px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.add-title-input::placeholder {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+}
+
+.add-author-input::placeholder {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+}
+
+.add-book-btn {
+  align-self: flex-end;
+  width: 55px;
+  background-color: white;
+  border-radius: 3px;
+  height: 34px;
+  font-family: 'Varela Round', sans-serif;
+  border: 3px solid black;
+}
+
+.date-display {
+  float: right;
+  margin-top: 20px;
+}
+
+.remove-btn {
+  width: 70px;
+  background-color: white;
+  border-radius: 3px;
+  height: 34px;
+  font-family: 'Varela Round', sans-serif;
+  border: 3px solid black;
+  align-self: center;
+}
+
+.book-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-position {
+  width: 420px;
+}
+
+.title-text {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
