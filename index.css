@@ -1,0 +1,181 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: space-around;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  justify-content: end;
+  font-size: 18px;
+}
+
+.nav-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-title {
+  font-size: 20px;
+}
+
+.line {
+  height: 25px;
+  background-color: rgba(109, 109, 109, 0.716);
+  width: 2px;
+}
+
+.list-section {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.library {
+  margin-top: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.188);
+  height: 30px;
+}
+
+.book-details {
+  width: 500px;
+}
+
+.add-section {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.title-book-add {
+  height: 20px;
+  width: 300px;
+}
+
+.author-book-add {
+  height: 20px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.btn-add {
+  float: right;
+  margin-top: 20px;
+}
+
+.contact-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 200px;
+  border: 2px solid black;
+  align-self: flex-end;
+  justify-self: end;
+}
+
+.copy-text {
+  margin-left: 20px;
+}
+
+.title-form {
+  font-size: 30px;
+  font-family: 'Varela Round', sans-serif;
+  margin-left: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-title-input,
+.add-author-input {
+  width: 400px;
+  border: 3px solid black;
+  margin-bottom: 10px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.add-title-input::placeholder {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+}
+
+.add-author-input::placeholder {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+}
+
+.add-book-btn {
+  align-self: flex-end;
+  width: 55px;
+  background-color: white;
+  border-radius: 3px;
+  height: 34px;
+  font-family: 'Varela Round', sans-serif;
+  border: 3px solid black;
+}
+
+.date-display {
+  float: right;
+  margin-top: 20px;
+}
+
+.remove-btn {
+  width: 70px;
+  background-color: white;
+  border-radius: 3px;
+  height: 34px;
+  font-family: 'Varela Round', sans-serif;
+  border: 3px solid black;
+  align-self: center;
+}
+
+.book-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-position {
+  width: 420px;
+}
+
+.title-text {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
