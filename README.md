@@ -1,6 +1,9 @@
 <a name="readme-top"></a>
 
-<img src="119-1193182_dibujo-de-libro-para-colorear-coloring-book.png">
+<div align="center">
+
+<img src="119-1193182_dibujo-de-libro-para-colorear-coloring-book.png" width=400px>
+</div>
 
 <div align="center">
 
@@ -72,7 +75,6 @@ For a live demo to our project, follow the link below
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -93,7 +95,7 @@ Example command:
 - Clone this repository or download the Zip folder:
 
 ```
-git clone https://github.com/rivasbolinga/AwesomeBooks-library.git
+git clone git@github.com:rivasbolinga/AwesomeBooks-ES6.git
 ```
 
 - Navigate to the location of the folder in your machine:
@@ -145,11 +147,7 @@ npx eslint .
 - GitHub: [@rivasbolinga](https://github.com/rivasbolinga)
 - Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
 
-👤 **Okolo Oshoke**
 
-- GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
-- Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
-- LinkedIn: [Oshoke Okolo]https://www.linkedin.com/in/oshoke-okolo-665208108/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
