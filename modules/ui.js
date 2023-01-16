@@ -1,4 +1,5 @@
 import Storage from './localStorage.js';
+
 let newId = 0;
 const libraryContainer = document.querySelector('.library');
 const newTitleInput = document.querySelector('.add-title-input');

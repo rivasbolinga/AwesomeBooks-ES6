@@ -1,10 +1,8 @@
-'use strict'
-
 import Book from './modules/book.js';
 import Storage from './modules/localStorage.js';
 import UI from './modules/ui.js';
 import { DateTime } from './modules/luxon.js';
-
+// Global Variables
 const addBtn = document.querySelector('.add-book-btn');
 const newTitleInput = document.querySelector('.add-title-input');
 const newAuthorInput = document.querySelector('.add-author-input');
@@ -16,10 +14,7 @@ const listSection = document.querySelector('.list-section');
 const addSection = document.querySelector('.add-section');
 const contactSection = document.querySelector('.contact-section');
 const dateToday = document.querySelector('.date-display');
-
-
 // NAVBAR INTERACTIONS
-
 listLink.addEventListener('click', () => {
   listSection.style.display = 'flex';
   addSection.style.display = 'none';
@@ -36,7 +31,10 @@ contactLink.addEventListener('click', () => {
   addSection.style.display = 'none';
 });
 
-const addBookPressed = function (e) {
+/// // EVENT LISTENERS
+
+// -- Function that creates a new book when you press the button Add Book --
+addBtn.addEventListener('click', (e) => {
   e.preventDefault();
   const books = Storage.getBooks();
   const newTitle = newTitleInput.value;
@@ -54,9 +52,9 @@ const addBookPressed = function (e) {
     UI.addBooktoLibrary(newBook);
     UI.clearFields();
   }
-};
-// Function to remove new Book
-const removeBook = function (e) {
+});
+// -- Function that deletes the book when you press the button remove --
+libraryContainer.addEventListener('click', (e) => {
   if (e.target.classList.contains('remove-btn')) {
     let library = Storage.getBooks();
     const { id } = e.target;
@@ -64,14 +62,11 @@ const removeBook = function (e) {
     localStorage.setItem('books', JSON.stringify(library));
     e.target.parentElement.remove();
   }
-};
-/// // EVENT LISTENERS
-addBtn.addEventListener('click', addBookPressed);
-libraryContainer.addEventListener('click', removeBook);
+});
 document.addEventListener('DOMContentLoaded', UI.displayBook);
 
-// Display date
+// Display date from luxon library
 
-const dateDisplay = DateTime.now().toLocaleString(DateTime.DATETIME_MED)
+const dateDisplay = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 dateToday.textContent = dateDisplay;
 document.addEventListener('DOMContentLoaded', dateToday);
