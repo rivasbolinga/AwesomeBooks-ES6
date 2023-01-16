@@ -67,7 +67,7 @@
 
 For a live demo to our project, follow the link below
 
-- [Live Demo Link](https://rivasbolinga.github.io/AwesomeBooks-library/)
+- [Live Demo Link](https://rivasbolinga.github.io/AwesomeBooks-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
