@@ -37,11 +37,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [AWESOME LIBRARY] <a name="about-project"></a>
+# 📖 AWESOME LIBRARY <a name="about-project"></a>
 
 
 
-**[Awesome Library]** is a simple application with three different sections that displays a list of books and allows you to add and remove books from that list. 
+**Awesome Library** is a simple application with three different sections that display a list of books and allow you to add and remove books from that list. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,19 +53,20 @@
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 
-<!-- > Describe between 1-3 key features of the application.-->
-- **Navigation bar to navigate through the  application**
+
+
+- **Navigation bar to navigate through the application**
 - **ES6 modules and sintax**
 - **Section 1: Library list to see the list of books**
-- **Section 2 : A form to add a book**
-- **Section 3 : Contact section**
+- **Section 2: A form to add a book**
+- **Section 3: Contact section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-For a live demo to our project, follow the link below
+For a live demo of our project, follow the link below
 
 - [Live Demo Link](https://rivasbolinga.github.io/AwesomeBooks-ES6/)
 
