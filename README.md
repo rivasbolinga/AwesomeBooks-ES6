@@ -31,7 +31,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -156,8 +155,8 @@ npx eslint .
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add a implementation to chose if you have read or not the book]**
-- [ ] **[Better style and design]**
+- [ ] **Add a implementation to chose if you have read or not the book**
+- [ ] **Better style and design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,7 +194,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/rivasbolinga/AwesomeBooks-ES6/blob/ES6-modules/MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
